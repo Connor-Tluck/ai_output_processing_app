@@ -1,0 +1,11 @@
+﻿Target Name,Company,Role,Sales Stage,Current Customer,Current ACV,Market Segment,Product,Features
+Alice Johnson,Acme Corp,Project Manager,New Customer,No,0,Construction,Vertical Imagery,"High-resolution,Up-to-date coverage,Georeferenced data"
+Bob Smith,Global Tech,Operations Lead,Renewal,Yes,20000,Technology,AI Data,"Object detection,Change tracking,Tree height analysis"
+Carol Lee,BuildWorks,Design Engineer,Upsell,Yes,15000,Architecture,Oblique Imagery,"Multi-angle views,3D rendering,Seamless integration"
+David Brown,Green Energy,Sustainability Officer,New Customer,No,0,Energy,Near Infrared (NIR),"Vegetation health,Land use insights,Infrared imaging"
+Eve Miller,CityGov,Urban Planner,Renewal,Yes,30000,Government,MapBrowser,"Visual tools,Layer overlay,Collaboration-ready"
+Alice Johnson,Acme Corp,Project Manager,New Customer,No,0,Construction,Vertical Imagery,"High-resolution,Up-to-date coverage,Georeferenced data"
+Bob Smith,Global Tech,Operations Lead,Renewal,Yes,20000,Technology,AI Data,"Object detection,Change tracking,Tree height analysis"
+Carol Lee,BuildWorks,Design Engineer,Upsell,Yes,15000,Architecture,Oblique Imagery,"Multi-angle views,3D rendering,Seamless integration"
+David Brown,Green Energy,Sustainability Officer,New Customer,No,0,Energy,Near Infrared (NIR),"Vegetation health,Land use insights,Infrared imaging"
+Eve Miller,CityGov,Urban Planner,Renewal,Yes,30000,Government,MapBrowser,"Visual tools,Layer overlay,Collaboration-ready"

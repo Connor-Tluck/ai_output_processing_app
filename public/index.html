@@ -13,10 +13,43 @@
       left: 0;
       right: 0;
       background-color: #fff;
-      border-top: 2px solid #dc3545; /* Red border for emphasis */
-      z-index: 1030; /* Keeps it above most elements */
+      border-top: 2px solid #dc3545;
+      z-index: 1030;
       box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
       padding: 15px;
+    }
+
+    .content-buffer {
+      margin-bottom: 70px; /* Ensures table content isn't covered by the footer */
+    }
+
+    @media (max-width: 768px) {
+      .fixed-footer {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .fixed-footer span {
+        margin-bottom: 10px;
+      }
+
+      .fixed-footer .btn {
+        margin-bottom: 5px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .table-responsive {
+        overflow-x: auto;
+      }
+
+      #selectedContactInfo {
+        font-size: 0.9rem;
+      }
+
+      textarea {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
@@ -26,24 +59,24 @@
 
     <div class="mb-4">
       <h4>Upload Client Data (CSV)</h4>
-      <input type="file" class="form-control" id="csvUpload" accept=".csv">
+      <input type="file" class="form-control mb-2" id="csvUpload" accept=".csv">
     </div>
 
     <div class="row">
       <!-- Left: Table -->
-      <div class="col-lg-8">
-        <div class="mb-4 d-flex align-items-center">
-          <label for="companyFilter" class="me-3">Filter by Company:</label>
-          <select class="form-select d-inline-block w-auto" id="companyFilter">
+      <div class="col-lg-8 col-md-12">
+        <div class="mb-4 d-flex align-items-center flex-wrap">
+          <label for="companyFilter" class="me-3 mb-2">Filter by Company:</label>
+          <select class="form-select d-inline-block w-auto me-3 mb-2" id="companyFilter">
             <option value="">All Companies</option>
           </select>
 
           <!-- Processing buttons -->
-          <button id="aiProcessBtn" class="btn btn-primary ms-3">AI Process</button>
-          <button id="exportBtn" class="btn btn-primary ms-3">Export</button>
+          <button id="aiProcessBtn" class="btn btn-primary me-3 mb-2">AI Process</button>
+          <button id="exportBtn" class="btn btn-primary mb-2">Export</button>
         </div>
 
-        <div class="table-responsive">
+        <div class="table-responsive content-buffer">
           <table class="table table-striped" id="clientTable">
             <thead>
               <tr>
@@ -65,7 +98,7 @@
       </div>
 
       <!-- Right: Email Draft Viewer -->
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-12">
         <!-- Selected Contact Info -->
         <div id="selectedContactInfo" class="mb-3 p-3 border rounded bg-light">
           <p><strong>Selected Contact:</strong> <span id="selectedContact">None</span></p>
@@ -75,23 +108,23 @@
 
         <!-- Email Draft Viewer -->
         <h4>Email Draft Viewer</h4>
-        <textarea id="emailDraftViewer" class="form-control" rows="10" placeholder="Select a customer to view or edit their email draft"></textarea>
+        <textarea id="emailDraftViewer" class="form-control mb-2" rows="8" placeholder="Select a customer to view or edit their email draft"></textarea>
       </div>
     </div>
   </div>
 
   <!-- Fixed Footer -->
-  <div class="fixed-footer d-flex align-items-center justify-content-between">
+  <div class="fixed-footer d-flex align-items-center justify-content-between flex-wrap">
     <span class="text-danger"><strong>DANGER:</strong> Email Send Out:</span>
     <div>
-      <button id="sendSingleEmailBtn" class="btn btn-danger me-3">Send Single Email</button>
-      <button id="sendAllEmailsBtn" class="btn btn-danger">Send All Emails</button>
+      <button id="sendSingleEmailBtn" class="btn btn-danger me-3 mb-2">Send Single Email</button>
+      <button id="sendAllEmailsBtn" class="btn btn-danger mb-2">Send All Emails</button>
     </div>
   </div>
 
   <!-- AI Process Modal -->
   <div class="modal fade" id="aiProcessModal" tabindex="-1" aria-labelledby="aiProcessModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="aiProcessModalLabel">AI Processing Options</h5>
@@ -108,11 +141,12 @@
     </div>
   </div>
 
+  <!-- Progress Modal -->
   <div class="modal fade" id="processingProgressModal" tabindex="-1" aria-labelledby="processingProgressModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="processingProgressModalLabel">Generating AI based Email...</h5>
+          <h5 class="modal-title" id="processingProgressModalLabel">Generating AI-based Email...</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -135,13 +169,9 @@
     </div>
   </div>
 
-  
-  
-
-
   <!-- JS Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/emailAutomation.js"></script>
   <script src="js/ai_processing.js"></script>
   <script src="js/processing.js"></script>
