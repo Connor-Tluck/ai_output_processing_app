@@ -1,0 +1,143 @@
+{
+    "email_templates": [
+      {
+        "industry": "Civil Engineering",
+        "template": {
+          "subject": "Streamline Your Civil Engineering Projects with Precision Aerial Data",
+          "body": {
+            "greeting": "Dear [Recipient's Name],",
+            "intro": "As a leader in aerial imagery and geospatial intelligence, Nearmap empowers civil engineers with the tools to manage complex infrastructure projects efficiently.",
+            "features": [
+              "Access high-resolution vertical imagery for precise georeferencing.",
+              "Use 3D models to enhance urban design and planning.",
+              "Monitor infrastructure changes over time with historical imagery."
+            ],
+            "value_proposition": "Nearmap's solutions help you optimize design, ensure compliance, and deliver projects on time and under budget.",
+            "call_to_action": "Let’s discuss how Nearmap can support your projects. Are you available for a quick call or demo?",
+            "closing": "Looking forward to connecting!",
+            "signature": {
+              "name": "[Your Name]",
+              "title": "[Your Job Title]",
+              "contact": "[Your Contact Information]"
+            }
+          }
+        }
+      },
+      {
+        "industry": "Transportation Engineering",
+        "template": {
+          "subject": "Enhance Your Transportation Projects with Advanced Aerial Insights",
+          "body": {
+            "greeting": "Dear [Recipient's Name],",
+            "intro": "Managing transportation projects demands accurate, up-to-date data. Nearmap provides the geospatial insights you need to optimize your planning and execution.",
+            "features": [
+              "Plan and assess road networks with ultra-high-resolution imagery.",
+              "Monitor infrastructure assets and identify potential risks remotely.",
+              "Streamline compliance with detailed AI data on road encroachments."
+            ],
+            "value_proposition": "With Nearmap, transportation projects move faster and more efficiently, reducing costs and improving outcomes.",
+            "call_to_action": "Could we schedule a quick chat to explore how Nearmap fits into your workflow?",
+            "closing": "Best regards,",
+            "signature": {
+              "name": "[Your Name]",
+              "title": "[Your Job Title]",
+              "contact": "[Your Contact Information]"
+            }
+          }
+        }
+      },
+      {
+        "industry": "Water Resources Engineering",
+        "template": {
+          "subject": "Manage Water Resources with High-Resolution Imagery from Nearmap",
+          "body": {
+            "greeting": "Dear [Recipient's Name],",
+            "intro": "Nearmap’s cutting-edge geospatial tools empower water resource engineers to manage projects with greater precision and efficiency.",
+            "features": [
+              "Monitor watershed changes with historical and current data.",
+              "Design effective flood control systems using 3D terrain models.",
+              "Leverage AI-powered insights for water infrastructure assessments."
+            ],
+            "value_proposition": "Nearmap helps you visualize, plan, and implement water resource projects with unparalleled clarity and speed.",
+            "call_to_action": "Let’s connect to discuss your upcoming projects and how Nearmap can help.",
+            "closing": "Looking forward to hearing from you!",
+            "signature": {
+              "name": "[Your Name]",
+              "title": "[Your Job Title]",
+              "contact": "[Your Contact Information]"
+            }
+          }
+        }
+      },
+      {
+        "industry": "Site Design",
+        "template": {
+          "subject": "Revolutionize Your Site Design Workflow with Nearmap",
+          "body": {
+            "greeting": "Hi [Recipient's Name],",
+            "intro": "Site design requires accuracy and speed. Nearmap provides high-resolution imagery and geospatial tools to bring your site plans to life.",
+            "features": [
+              "Integrate detailed aerial imagery into your CAD and GIS tools.",
+              "Leverage AI insights for vegetation and topography analysis.",
+              "Access current and historical data to track site changes."
+            ],
+            "value_proposition": "With Nearmap, you can streamline your site design process and deliver exceptional results to your clients.",
+            "call_to_action": "Would you like a demo to see how Nearmap enhances site design?",
+            "closing": "Best regards,",
+            "signature": {
+              "name": "[Your Name]",
+              "title": "[Your Job Title]",
+              "contact": "[Your Contact Information]"
+            }
+          }
+        }
+      },
+      {
+        "industry": "Land Use Planning",
+        "template": {
+          "subject": "Enhance Land Use Planning with High-Resolution Geospatial Data",
+          "body": {
+            "greeting": "Dear [Recipient's Name],",
+            "intro": "Nearmap equips land use planners with the data needed to create effective, sustainable development plans.",
+            "features": [
+              "Analyze land use patterns with high-resolution imagery.",
+              "Access 3D data to model landform changes and development impacts.",
+              "Monitor vegetation and zoning compliance remotely."
+            ],
+            "value_proposition": "With Nearmap’s tools, land use planning becomes more informed and efficient.",
+            "call_to_action": "Are you interested in a quick discussion about our solutions?",
+            "closing": "Sincerely,",
+            "signature": {
+              "name": "[Your Name]",
+              "title": "[Your Job Title]",
+              "contact": "[Your Contact Information]"
+            }
+          }
+        }
+      },
+      {
+        "industry": "Telecommunications",
+        "template": {
+          "subject": "Optimize Telecom Network Planning with Nearmap",
+          "body": {
+            "greeting": "Hi [Recipient's Name],",
+            "intro": "Telecommunications projects demand precision. Nearmap provides the aerial data you need to optimize network planning and management.",
+            "features": [
+              "Identify optimal tower locations using high-resolution data.",
+              "Monitor network infrastructure remotely with up-to-date imagery.",
+              "Leverage 3D models for detailed terrain and urban analysis."
+            ],
+            "value_proposition": "With Nearmap, you can accelerate deployments, reduce costs, and improve service delivery.",
+            "call_to_action": "Let’s schedule a brief call to explore your needs and how we can assist.",
+            "closing": "Looking forward to speaking with you!",
+            "signature": {
+              "name": "[Your Name]",
+              "title": "[Your Job Title]",
+              "contact": "[Your Contact Information]"
+            }
+          }
+        }
+      }
+    ]
+  }
+  
